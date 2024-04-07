@@ -12,6 +12,9 @@ const Sidebar = () => {
                 <li>
                     <Link href="/explore">Explore</Link>
                 </li>
+                <li>
+                    <Link href='/homeowners'>Homeowners</Link>
+                </li>
             </ul>
         </div>
     );

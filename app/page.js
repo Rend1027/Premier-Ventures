@@ -1,19 +1,23 @@
 import Image from 'next/image';
+import RootLayout from './layout';
 
 
-export default function Page() {
+const HomePage = () => {
   return (
     <div>
-    <h1>Explore Nearby Attractions</h1>
-    <p>Discover attractions within a 50-mile radius of our property</p>
+    <h1>Welcome to Premier Stay Ventures</h1>
+      <p>Discover your next stay with us.</p>
     {/* Define inline styles or use a CSS/SCSS file for styling */}
     
-        <Image
+        {/*<Image
           src="/images/download.jpg"
           alt="A beautiful house"
           width={500}
           height={500}
-        />
+  />*/}
     </div>
   );
 }
+
+
+export default HomePage
