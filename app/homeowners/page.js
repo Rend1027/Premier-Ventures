@@ -11,7 +11,7 @@ const Homeowners = () => {
       }}
     >
       <section style={{ marginBottom: "40px" }}>
-        <h1 style={{ fontSize: "24px", fontWeight: "bold" }}>
+        <h1 style={{ fontSize: "28px", fontWeight: "bold" }}>
           Let us be the best tenant you ever had!
         </h1>
         <p style={{ fontSize: "18px" }}>
@@ -26,23 +26,62 @@ const Homeowners = () => {
         <h2 style={{ fontSize: "22px", fontWeight: "bold" }}>
           Benefits of having us as your tenant
         </h2>
-        <ul>
-          <li>Reliable Tenant</li>
+        <section>
+          <h2
+            style={{
+              fontWeight: "bold",
+              marginTop: "20px",
+            }}
+          >
+            Reliable Tenant
+          </h2>
           <p>
             You will not have to seek out payment because as your tenant we we
             will pay the rent on time every month, so you can have the peace of
             mind of knowing you will receive timely payment every single month. 
           </p>
           <Image
-            style={{ borderRadius: "50px" }}
+            style={{ borderRadius: "25px" }}
             src="/images/money.jpg"
             alt="picture of money"
-            width={500}
-            height={500}
+            width={300}
+            height={300}
           />
-          <li>Profesional Property Care</li>
-          <li>Zero Turnover</li>
-        </ul>
+          <section style={{ marginTop: "20px" }}>
+            <h2 style={{ fontWeight: "bold" }}>Profesional Property Care</h2>
+            <p>
+              We keep our managed properties in tip-top shape to keep our guests
+              happy. You no longer have to worry about the state of your
+              property after a long-term tenant moves out. With us, we hire
+              professional cleaners to clean the house after every guest.In
+              addition to top-notch property care our insurance will cover any
+              damages of up to $1,000,000.
+            </p>
+            <Image
+              style={{ borderRadius: "25px" }}
+              src="/images/care.jpg"
+              alt="picture of profesionals"
+              width={300}
+              height={300}
+            />
+          </section>
+          <section style={{ marginTop: "20px" }}>
+            <h2 style={{ fontWeight: "bold" }}>Zero Turnover Time</h2>
+            <p>
+              Ideally we would want to sign a 2 to 4 year lease so you can have
+              a peace of mind of steady income for the next several years. Lease
+              your property today with Premier Stay Ventures and forget about
+              finding new tenants every other year.
+            </p>
+            <Image
+              style={{ borderRadius: "25px" }}
+              src="/images/turnOver.jpg"
+              alt="picture of keys"
+              width={300}
+              height={300}
+            />
+          </section>
+        </section>
         {/* CTA Button Example */}
         <div style={{ marginTop: "30px", textAlign: "center" }}>
           <button
@@ -60,6 +99,14 @@ const Homeowners = () => {
           </button>
         </div>
       </section>
+      <footer>
+        <section>
+          <p>Be In Touch</p>
+          <address>
+            Premier Stay Ventures LLC. 2085 Lexington Ave. New York, NY. 10029
+          </address>
+        </section>
+      </footer>
     </div>
   );
 };
