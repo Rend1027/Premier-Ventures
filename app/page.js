@@ -1,23 +1,22 @@
-import Image from 'next/image';
-import RootLayout from './layout';
-
+import Image from "next/image";
+import RootLayout from "./layout";
 
 const HomePage = () => {
   return (
     <div>
-    <h1>Welcome to Premier Stay Ventures</h1>
+      <h1 style={{ fontSize: "32px" }}>Premier Stay Ventures</h1>
       <p>Discover your next stay with us.</p>
-    {/* Define inline styles or use a CSS/SCSS file for styling */}
-    
-        {/*<Image
+      {
+        <Image
+          style={{ borderRadius: "25px" }}
           src="/images/download.jpg"
-          alt="A beautiful house"
+          alt="Picture of a beautiful house"
           width={500}
           height={500}
-  />*/}
+        />
+      }
     </div>
   );
-}
+};
 
-
-export default HomePage
+export default HomePage;

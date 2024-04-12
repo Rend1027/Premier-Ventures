@@ -99,14 +99,7 @@ const Homeowners = () => {
           </button>
         </div>
       </section>
-      <footer>
-        <section>
-          <p>Be In Touch</p>
-          <address>
-            Premier Stay Ventures LLC. 2085 Lexington Ave. New York, NY. 10029
-          </address>
-        </section>
-      </footer>
+      
     </div>
   );
 };

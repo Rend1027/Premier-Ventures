@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import Sidebar from "./Sidebar";
 import "./globals.css";
+import Footer from "./Footer"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,11 +16,12 @@ export default function RootLayout({ children }) {
       <head>
         <title>Premier Stay Ventures</title>
       </head>
-      <body className={`${inter.className} flex`}>
+      <body className={`${inter.className} flex flex-col min-h-screen`}>
         <Sidebar/>
         <main className="flex-grow ml-64">
           {children}
         </main>
+        <Footer/>
       </body>
     </html>
   );
