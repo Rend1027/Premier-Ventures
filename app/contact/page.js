@@ -1,4 +1,4 @@
-const ExplorePage = () => {
+const Contact = () => {
     return (
         <div>
             <h1>Explore Nearby Atrractions</h1>
