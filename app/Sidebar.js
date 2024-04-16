@@ -4,13 +4,13 @@ const Sidebar = () => {
   return (
     <div className="sidebar min-h-screen fixed left-0 top-0 w-64 bg-gray-800 text-white p-4">
       <ul>
-        <li>
+        <li style={{ marginBottom: "25px" }}>
           <Link href="/">Home</Link>
         </li>
-        <li>
+        <li style={{ marginBottom: "25px" }}>
           <Link href="/properties">Properties</Link>
         </li>
-        <li>
+        <li style={{ marginBottom: "25px" }}>
           <Link href="/contact">Contact</Link>
         </li>
         <li>

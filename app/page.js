@@ -4,12 +4,6 @@ import RootLayout from "./layout";
 const HomePage = () => {
   return (
     <div>
-      <h1 style={{ fontSize: "36px", textAlign: "center" }}>
-        Premier Stay Ventures
-      </h1>
-      <p style={{ textAlign: "center", fontSize: "24px" }}>
-        Discover your next stay with us.
-      </p>
       {
         <Image
           style={{
