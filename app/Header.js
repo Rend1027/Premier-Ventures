@@ -1,18 +1,25 @@
+import Image from "next/image";
+
 const Header = () => {
   return (
     <header
       style={{
         display: "flex",
         flexDirection: "column",
-        justifyContent: "center",
+        justifyContent: "flex-start",
         alignItems: "center",
         width: "calc(100% - 256px)",
-        marginLeft: "256px",  // Adjust width to not extend under the sidebar
+        marginLeft: "256px", // Adjust width to not extend under the sidebar
         padding: "20px",
       }}
     >
-      <h1 style={{ fontSize: "36px" }}>Premier Stay Ventures</h1>
-      <p style={{ fontSize: "18px" }}>Discover your next stay with us.</p>
+      <Image
+        src="/images/Premierstayventures.png"
+        alt="logo"
+        width={650} // More suitable width, adjust based on design needs
+        height={250} // Maintain aspect ratio
+        layout="fixed"
+      />
     </header>
   );
 };
